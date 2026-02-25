@@ -1,4 +1,5 @@
-html{
+html
+{
     box-sizing: border-box;
     font-family: Copperplate, Papyrus, sans-serif;
     font-size: 18px;
@@ -6,13 +7,64 @@ html{
 
 *,
 *::before,
-*::after{
+*::after
+{
     box-sizing: inherit;
 }
 
-body{
+body
+{
     width: 600px;
     margin: 10px auto;
-    background-color: rgb(223, 184, 174);
-    color: rgb(61, 56, 56)
+    background-color: rgb(230, 228, 217);
+    color: rgb(65, 65, 65);
+}
+
+.title
+{
+    text-align: center;
+}
+
+.picture,
+.description,
+.ingredients,
+.instructions
+{
+    margin-bottom: 30px;
+}
+
+.description,
+.ingredients,
+.instructions
+{
+    border: 3px solid orange;
+    background-color: rgb(224, 181, 101); 
+    padding: 5px;
+}
+.picture
+{
+    display: block;
+    width: 550px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.closing
+{
+    border: 3px dotted red;
+    background-color: rgb(233, 119, 119);
+    padding: 5px;
+}
+
+.back
+{
+    width: 60px;
+    border: 4px solid rgb(255, 123, 0);
+    background-color: rgb(223, 217, 162);
+    margin: 0 0 0 auto;
+}
+a.back
+{
+    display: block;
+    margin: 0 auto;
 }
