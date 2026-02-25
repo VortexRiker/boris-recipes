@@ -1,5 +1,7 @@
 html{
     box-sizing: border-box;
+    font-family: Copperplate, Papyrus, sans-serif;
+    font-size: 18px;
 }
 
 *,
@@ -11,4 +13,6 @@ html{
 body{
     width: 600px;
     margin: 10px auto;
+    background-color: rgb(223, 184, 174);
+    color: rgb(61, 56, 56)
 }
