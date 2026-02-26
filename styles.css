@@ -63,8 +63,9 @@ body
     background-color: rgb(223, 217, 162);
     margin: 0 0 0 auto;
 }
-a.back
+
+.quote
 {
-    display: block;
-    margin: 0 auto;
+    color: rgb(66, 12, 5);
+    text-align: right;
 }
