@@ -45,6 +45,7 @@ body
     background-color: rgb(224, 181, 101); 
     padding: 5px;   
 }
+
 .picture
 {
     display: block;
@@ -58,7 +59,6 @@ body
     background-color: rgb(233, 119, 119);
     padding: 5px;
 }
-
 .button
 {
     padding: 1em 2em;
@@ -73,4 +73,20 @@ body
 {
     color: rgb(66, 12, 5);
     text-align: center;
+    margin-top: -20px;
+}
+
+.navigation
+{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.navigation a
+{
+    text-decoration: none;
+    border: 1px solid rgb(255, 123, 0);
+    background-color: rgb(223, 217, 162);
+    width: 160px;
+    padding: 10px;
 }
