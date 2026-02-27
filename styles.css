@@ -23,6 +23,8 @@ body
 .title
 {
     text-align: center;
+    background-color:indianred;
+    color:bisque;
 }
 
 .picture,
